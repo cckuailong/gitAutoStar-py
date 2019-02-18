@@ -23,11 +23,14 @@ def run():
     cnt = 1
     print ("Start Star")
     for url in res:
-        requests.put("https://api.github.com/user/starred/" + url
-                       , headers={'Content-Length': '0'}
-                       , auth=AUTH)
-        print ("Stared %d" % cnt)
-        cnt += 1
+        try:
+            requests.put("https://api.github.com/user/starred/" + url
+                           , headers={'Content-Length': '0'}
+                           , auth=AUTH)
+            print ("Stared %d" % cnt)
+            cnt += 1
+        except:
+            pass
         time.sleep(10)
 
     browser.find_element_by_id("update").click()
