@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6fbc1d4-ed20-4a09-b0c8-965d2504b75d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/gitStar.py" beforeDir="false" afterPath="$PROJECT_DIR$/gitStar.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,14 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gitStar.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
               <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -35,19 +31,19 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="297">
-                <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+              <first_editor relative-caret-position="300">
+                <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="33" />
+            <state relative-caret-position="105">
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -74,8 +70,8 @@
       <list>
         <option value="$PROJECT_DIR$/data.txt" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/settings.py" />
         <option value="$PROJECT_DIR$/gitStar.py" />
+        <option value="$PROJECT_DIR$/settings.py" />
       </list>
     </option>
   </component>
@@ -91,6 +87,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -102,7 +99,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -170,17 +166,18 @@
       <updated>1550480042204</updated>
       <workItem from="1550480047137" duration="630000" />
       <workItem from="1550480780489" duration="8982000" />
+      <workItem from="1550494156636" duration="13000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9612000" />
+    <option name="totallyTimeSpent" value="9625000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="149" y="32" width="1301" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49759614" visible="true" weight="0.25338647" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49759614" visible="true" weight="0.25737053" />
       <window_info id="Structure" order="1" sideWeight="0.50240386" side_tool="true" weight="0.25338647" />
       <window_info id="Favorites" order="2" sideWeight="0.50240386" side_tool="true" weight="0.25338647" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -207,16 +204,19 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data.txt">
+    <entry file="file://$PROJECT_DIR$/data.txt" />
+    <entry file="file://$PROJECT_DIR$/gitStar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16923" />
+        <state relative-caret-position="345">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="297">
-            <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+          <first_editor relative-caret-position="300">
+            <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
           </first_editor>
           <second_editor />
         </state>
@@ -224,18 +224,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gitStar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
         </state>
       </provider>
     </entry>
