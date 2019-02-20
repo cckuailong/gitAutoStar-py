@@ -17,12 +17,15 @@ def run():
     browser.find_element_by_id("password").send_keys(GITSTAR_PASSWORD)
     browser.find_element_by_css_selector(".btn.btn-default").click()
     res = re.findall(r'href="https://github.com/(.*?)">', browser.page_source)[:-6]
+    res_f = ["cckuailong/colorsys-go", "cckuailong/Shyvana"]
     if "cckuailong/colorsys-go" not in res:
-        res.append(["cckuailong/colorsys-go", "cckuailong/Shyvana"])
+        res_f.append(res)
+    else:
+        res_f = res
     AUTH = HTTPBasicAuth(GIT_NAME, GIT_PASSWORD)
     cnt = 1
     print ("Start Star")
-    for url in res:
+    for url in res_f:
         try:
             requests.put("https://api.github.com/user/starred/" + url
                            , headers={'Content-Length': '0'}
